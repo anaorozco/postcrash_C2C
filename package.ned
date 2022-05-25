@@ -1,0 +1,3 @@
+package calitest;
+
+@license(LGPL);

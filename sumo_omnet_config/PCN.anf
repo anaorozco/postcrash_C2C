@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/calitest/results/debug-*.vec"/>
+    <inputs name="/calitest/results/debug-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="data">
+      <items xsi:type="scave:Group">
+        <items xsi:type="scave:Add" filterPattern="file(/calitest/results/debug-0.vec) AND attr:configname(debug) AND attr:runnumber(0) AND module(Calitest.node[1].routing) AND name(algorithm:vector)" type="VECTOR"/>
+        <items xsi:type="scave:Add" filterPattern="file(/calitest/results/debug-0.vec) AND attr:configname(debug) AND attr:runnumber(0) AND module(Calitest.node[2].routing) AND name(algorithm:vector)" type="VECTOR"/>
+        <items xsi:type="scave:Add" filterPattern="file(/calitest/results/debug-0.vec) AND attr:configname(debug) AND attr:runnumber(0) AND module(Calitest.node[3].routing) AND name(algorithm:vector)" type="VECTOR"/>
+        <items xsi:type="scave:Add" filterPattern="file(/calitest/results/debug-0.vec) AND attr:configname(debug) AND attr:runnumber(0) AND module(Calitest.node[4].routing) AND name(algorithm:vector)" type="VECTOR"/>
+        <items xsi:type="scave:Add" filterPattern="file(/calitest/results/debug-0.vec) AND attr:configname(debug) AND attr:runnumber(0) AND module(Calitest.node[5].routing) AND name(algorithm:vector)" type="VECTOR"/>
+        <items xsi:type="scave:Add" filterPattern="file(/calitest/results/debug-0.vec) AND attr:configname(debug) AND attr:runnumber(0) AND module(Calitest.node[6].routing) AND name(algorithm:vector)" type="VECTOR"/>
+        <items xsi:type="scave:Add" filterPattern="file(/calitest/results/debug-0.vec) AND attr:configname(debug) AND attr:runnumber(0) AND module(Calitest.node[7].routing) AND name(algorithm:vector)" type="VECTOR"/>
+        <items xsi:type="scave:Add" filterPattern="file(/calitest/results/debug-0.vec) AND attr:configname(debug) AND attr:runnumber(0) AND module(Calitest.node[8].routing) AND name(algorithm:vector)" type="VECTOR"/>
+        <items xsi:type="scave:HistogramChart"/>
+      </items>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.0/@items.8"/>
+  </chartSheets>
+</scave:Analysis>

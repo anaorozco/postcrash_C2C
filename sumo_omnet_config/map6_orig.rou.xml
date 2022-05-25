@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- 
+10 Cars leaving the Universidad Icesi
+-->
+<routes>
+   <vType id="vtype0" accel="2.6" decel="4.5" sigma="0.5" length="2.5" minGap="4.5" maxSpeed="14" color="1,1,0"/>
+   <route id="route0" edges="-128581965 -51705696#5 -51705696#4 -51705696#3 -51705696#2 -51705696#1 -51705696#0 35151541#3"/>
+   <flow id="flow0" type="vtype0" route="route0" begin="0" period="10" number="3"/>
+</routes>
